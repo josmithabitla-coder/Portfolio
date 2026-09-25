@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josmitha's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>Josmitha</h2>
+            <img src="image.mp.jpg" alt="A photo of me" width="300" height="300">
+            <p>I am a passionate web developer with a focus on front-end technologies.</p>
+            <p>Currently pursuing my B.Tech at <em>Guru Nanak Institute of Technology, Ibrahimpatnam.</em></p>
+            <p>I have learnt Web Development from YouTube tutorials.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>Python Basics</li>
+                <li>HTML Basics</li>
+                <li>CSS Basics</li>
+                <li>JavaScript Basics</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <table>
+                <tr>
+                    <th>Project</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Portfolio Website</td>
+                    <td>Built using HTML, CSS, and JavaScript.</td>
+                </tr>
+                <tr>
+                    <td>Indian Seasonal Tourism Website</td>
+                    <td>Created using HTML and CSS.</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <br>
+
+                <b>Gender:</b><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br>
+
+                <b>Interests:</b><br>
+                <input type="checkbox" id="coding" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" id="reading" value="reading">
+                <label for="reading">Reading</label>
+                <br>
+
+                <label for="bio">Bio (max 200 chars):</label>
+                <textarea id="bio" maxlength="200"></textarea>
+                <br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Josmitha's Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
